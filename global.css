@@ -1,0 +1,138 @@
+/* Fix the box model. */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#container {
+	background: #E8E8E8;
+	width: 1300px;
+	position: absolute;
+}
+
+header {	
+	position: fixed;
+	background: #FAFFF5;
+	width: 100%;
+	height: 100px;
+	top: 0;
+}
+
+header #logo {
+	float: left;
+}
+header #bar {
+	float: right;
+}
+
+
+#bar li {
+	text-transform: uppercase;
+	padding: 10px;
+	display: inline-block;
+}
+
+#bio {	
+	background: #D5E0D7;
+	width: 1200px;
+	height: 40%;
+}
+
+#text {
+	padding-left: 40px;
+	text-size: xx-large;
+	justify: left;
+	padding: 50, 500, 50, 50;
+	float: left;
+	width: 60%;
+	line-height: 1.5;
+}
+
+#image {
+	top: 20;
+	float: right;
+	width: 25%;
+	border-radius: 50%;
+}
+
+#environment h5 {
+	padding-top: 20px;
+	margin: 0;
+	color: white;
+}
+
+#environment {
+	clear: both;
+	background: url("http://wp3496-flywheel.netdna-ssl.com/wp-content/themes/grainandmortar/images/imgs/clouds.jpg");
+	width: 1200px;
+	height: 40%;
+}
+
+#environment h1 {
+	text-transform: uppercase;
+}
+
+.setting {
+	text-align: center;
+	width: 300px;
+	color: white;
+}
+.setting2 {
+	float: left;
+	padding-left: 80px;
+	text-align: center;
+	width: 300px;
+	color: white;
+}
+.setting3 {
+	float: right;
+	padding-right: 80px;
+	text-align: center;
+	width: 300px;
+	color: white;
+}
+.setting4 {
+	clear: both;
+	text-align: center;
+	width: 300px;
+	color: white;
+}
+
+#process h5 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#process {
+	padding-left: 40px;
+	padding-right: 40px;
+	background: url("water.svg");
+	width: 1200px;
+	height: 40%;	
+}
+
+#process li {
+	width: 250px;
+	text-align: center;
+	position: relative;
+	padding: 20px;
+	display: inline-block;
+}
+
+footer {
+	background: #415C58;
+	width: 1200px;
+	height: 100px;
+}
+
+footer li {
+	display: inline-block;
+	float: left;
+	padding: 15px;
+}
+
+#logo {
+	margin: 0 auto 0 auto;
+}
